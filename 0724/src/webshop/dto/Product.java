@@ -18,7 +18,8 @@ public class Product implements Serializable {
 	private int quantity;           //장바구니에 담은 개수
 	
 	public Product() {
-		super();
+		System.out.println("Product 생성자 Call");
+		
 	}
 	public Product(String productId, String pname, Integer unitPrice) {
 		this.productId= productId;
